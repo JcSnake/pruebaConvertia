@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, label, button {
+    font-family: 'Roboto', sans-serif;
+}
+
+.fs-45 {
+    font-size: 45px !important;
+}
+
+/**
+ * Backgrounds
+ */
+
+.bg-home-img-team {
+    background-image: url('../images/bg_home1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.bg-home-img-guy {
+    background-image: url('../images/bg_home2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+/**
+ * Headers
+ */
+
+.text-head {
+    color: #0063BC;
+    background: #fff;
+    font-size: 60px;
+    height: 82px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 800;
+}
+
+/**
+ * Width
+ */
+
+.w450 {
+    width: 450px;
+}
+
+.w500 {
+    width: 509px;
+}
+
+.w350 {
+    width: 350px;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+/**
+ * Colors
+ */
+
+.c-blue {
+    color: #0063BC;
+}
+
+/**
+ * Buttons
+ */
+
+.btn-blue {
+    background: #0063BC 0% 0% no-repeat padding-box;
+    border: 3px solid #FFFFFF;
+    border-radius: 4px;
+    opacity: 1;
+    color: #fff;
+    font-weight: 700;
+}
+
+.btn-blue:hover {
+    background: #fff 0% 0% no-repeat padding-box;
+    border: 3px solid #0063BC;
+    border-radius: 4px;
+    opacity: 1;
+    color: #0063BC;
+    font-weight: 700;
+}
+
+.btn-orange {
+    background: #FF6A00 0% 0% no-repeat padding-box;
+    border: 4px solid #fff;
+    border-radius: 4px;
+    opacity: 1;
+    color: #fff;
+    font-weight: 700;
+}
+
+.btn-orange:hover {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 4px solid #FF6A00;
+    border-radius: 4px;
+    opacity: 1;
+    color: #FF6A00;
+    font-weight: 700;
+}
+
+/**
+ * Display
+ */
+
+.d-mobile {
+    display: none !important;
+}
+
+/**
+ * Margin
+ */
+
+.mt-50 {
+    margin-top: 50% !important;
+}
+
+@media screen and (max-width: 767px) {
+
+    .bg-home-img-team {
+        background-image: url('../images/bg_home1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        background-position-x: -220px;
+    }
+
+    .bg-home-img-guy {
+        background-image: url('../images/bg_home2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        background-position-x: -190px;
+    }
+
+    .w450, .w500, .w350 {
+        width: 100%;
+    }
+
+    .text-head {
+        color: #0063BC;
+        background: #fff;
+        font-size: 30px;
+        height: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-weight: 800;
+    }
+
+    .d-mobile {
+        display: block !important;
+    }
+    
+    .d-desktop {
+        display: none !important;
+    }
+}
