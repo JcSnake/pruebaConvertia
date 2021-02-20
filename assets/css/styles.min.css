@@ -14,8 +14,49 @@ h1, h2, h3, h4, h5, h6, p, span, label, button {
     font-family: 'Roboto', sans-serif;
 }
 
+input#telefono::placeholder {
+    font-size: 9px;
+}
+
+#avisos a {
+    color: #858585;
+    text-decoration: underline;
+    font-size: 10px;
+}
+
+#contactar p {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#contacto-footer {
+    background: #DCDCDC;
+    border: #858585;
+}
+
+#contacto-footer::placeholder {
+    color: #858585;
+    font-size: 12px;
+}
+
 .fs-45 {
     font-size: 45px !important;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-9 {
+    font-size: 9px;
 }
 
 /**
@@ -34,6 +75,31 @@ h1, h2, h3, h4, h5, h6, p, span, label, button {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+}
+
+.bg-contrata {
+    background-image: url('../images/bg-home-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.bg-pleca {
+    background:linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)),url('../images/pleca-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 19%;
+}
+
+.bg-pleca-2 {
+    background:linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.66)),url('../images/pleca.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 19%;
+}
+
+.bg-gray {
+    background: #DCDCDC;
 }
 
 /**
@@ -71,6 +137,18 @@ h1, h2, h3, h4, h5, h6, p, span, label, button {
 }
 
 /**
+ * Height
+ */
+
+.h-btn {
+    height: 58px;
+}
+
+.h-50 {
+    height: 50px !important;
+}
+
+/**
  * Colors
  */
 
@@ -78,12 +156,74 @@ h1, h2, h3, h4, h5, h6, p, span, label, button {
     color: #0063BC;
 }
 
+.c-white {
+    color: #fff;
+}
+
+.c-gray-dark {
+    color: #434343;
+}
+
+/**
+ * Box
+ */
+
+.div-white {
+    background-color: #fff !important;
+    -webkit-box-shadow: 3px 3px 3px 1px rgba(242,234,242,1);
+    -moz-box-shadow: 3px 3px 3px 1px rgba(242,234,242,1);
+    box-shadow: 3px 3px 3px 1px rgba(242,234,242,1);
+}
+
+.shadow-paquetes {
+    box-shadow: 0px 0px 12px #00000029;
+}
+
+.box-blue {
+    background: #0063BC;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.box-white {
+    background: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
 /**
  * Buttons
  */
 
+.btn-want {
+    background: #0063BC;
+    opacity: 1;
+    color: #fff;
+    border-radius: 0px;
+}
+
+.btn-want:hover {
+    background: #0063BC;
+    opacity: 1;
+    color: #fff;
+}
+
+.btn-llamame {
+    background: #FF6A00;
+    opacity: 1;
+    color: #fff;
+    border-radius: 0px;
+}
+
+.btn-llamame:hover {
+    background: #FF6A00;
+    opacity: 1;
+    color: #fff;
+    border-radius: 0px;
+}
+
 .btn-blue {
-    background: #0063BC 0% 0% no-repeat padding-box;
+    background: #0063BC;
     border: 3px solid #FFFFFF;
     border-radius: 4px;
     opacity: 1;
@@ -92,7 +232,7 @@ h1, h2, h3, h4, h5, h6, p, span, label, button {
 }
 
 .btn-blue:hover {
-    background: #fff 0% 0% no-repeat padding-box;
+    background: #fff;
     border: 3px solid #0063BC;
     border-radius: 4px;
     opacity: 1;
@@ -101,7 +241,7 @@ h1, h2, h3, h4, h5, h6, p, span, label, button {
 }
 
 .btn-orange {
-    background: #FF6A00 0% 0% no-repeat padding-box;
+    background: #FF6A00;
     border: 4px solid #fff;
     border-radius: 4px;
     opacity: 1;
@@ -110,7 +250,7 @@ h1, h2, h3, h4, h5, h6, p, span, label, button {
 }
 
 .btn-orange:hover {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF;
     border: 4px solid #FF6A00;
     border-radius: 4px;
     opacity: 1;
@@ -132,6 +272,38 @@ h1, h2, h3, h4, h5, h6, p, span, label, button {
 
 .mt-50 {
     margin-top: 50% !important;
+}
+
+.mt-text {
+    margin-top: 20%;
+}
+
+.mt-58 {
+    margin-top: 58px;
+}
+
+/**
+ * Position dinamics
+ */
+
+.p-form {
+    position: relative;
+    left: 10%;
+    top: 22%;
+}
+
+.pos-plus {
+    position: absolute;
+    left: 50%;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 0px 0px 10px #00000029;
+    text-align: center;
+    border-radius: 50%;
+    height: 30px;
 }
 
 @media screen and (max-width: 767px) {
@@ -172,5 +344,18 @@ h1, h2, h3, h4, h5, h6, p, span, label, button {
     
     .d-desktop {
         display: none !important;
+    }
+
+    .p-form {
+        position: relative;
+        left: 0%;
+        top: 0%;
+    }
+
+    .bg-contrata {
+        background-image: url('../images/bg-home-2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
     }
 }

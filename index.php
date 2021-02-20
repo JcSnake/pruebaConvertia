@@ -12,14 +12,14 @@
                     <h1 class="text-uppercase text-head w450">inigualable</h1>
                     <h1 class="text-uppercase text-head w500">incomparable</h1>
                     <h1 class="text-uppercase text-head w350">increíble</h1>
-                    <button class="col-12 col-md-6 btn btn-blue text-uppercase mt-4">Contrata hoy</button>
+                    <a href="contrata-hoy.php" class="col-12 col-md-6 btn btn-blue text-uppercase mt-4">Contrata hoy</a>
                 </div>
             </div>
         </div>
         <div class="col-xs-12 col-md-6 bg-home-img-guy">
             <div class="w-100 h-100 d-flex align-items-center">
                 <div class="w-80 mx-auto">
-                    <button class="col-7 btn btn-orange text-uppercase mt-50">Eres cliente y necesitas ayuda</button>
+                    <a href="cliente.php" class="col-7 btn btn-orange text-uppercase mt-50">Eres cliente y necesitas ayuda</a>
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@
                                 <h1 class="text-uppercase text-head w450">inigualable</h1>
                                 <h1 class="text-uppercase text-head w500">incomparable</h1>
                                 <h1 class="text-uppercase text-head w350">increíble</h1>
-                                <button class="col-12 col-md-6 btn btn-blue text-uppercase mt-4">Contrata hoy</button>
+                                <a href="contrata-hoy.php" class="col-12 col-md-6 btn btn-blue text-uppercase mt-4">Contrata hoy</a>
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@
                     <div class="col-12 col-md-6 bg-home-img-guy">
                         <div class="w-100 h-100 d-flex align-items-center">
                             <div class="w-80 mx-auto">
-                                <button class="col-12 col-md-7 btn btn-orange text-uppercase mt-50">Eres cliente y necesitas ayuda</button>
+                                <a href="cliente.php" class="col-12 col-md-7 btn btn-orange text-uppercase mt-50">Eres cliente y necesitas ayuda</a>
                             </div>
                         </div>
                     </div>
