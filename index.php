@@ -30,7 +30,7 @@
                 <div class="carousel-item active h-100">
                     <div class="col-12 col-md-6 bg-home-img-team">
                         <div class="d-flex align-items-center justify-content-center h-100">
-                            <div>
+                            <div class="col-10 m-auto pt-150">
                                 <h1 class="text-uppercase text-head w450">inigualable</h1>
                                 <h1 class="text-uppercase text-head w500">incomparable</h1>
                                 <h1 class="text-uppercase text-head w350">increíble</h1>
@@ -41,7 +41,7 @@
                 </div>
                 <div class="carousel-item h-100">
                     <div class="col-12 col-md-6 bg-home-img-guy">
-                        <div class="w-100 h-100 d-flex align-items-center">
+                        <div class="w-100 h-100 d-flex align-items-center pt-150">
                             <div class="w-80 mx-auto">
                                 <a href="cliente.php" class="col-12 col-md-7 btn btn-orange text-uppercase mt-50">Eres cliente y necesitas ayuda</a>
                             </div>
